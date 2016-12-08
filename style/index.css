@@ -28,7 +28,7 @@ header{
 .city{
     width: 225px;
     height: 100%;
-    margin-left: 60px;
+    margin-left: 89px;
     padding-top: 10px;
     float: left;
 }
@@ -43,11 +43,11 @@ header{
     color: #f00;
 }
 .weather{
-    width: 155px;
+    width: 158px;
     height: 100%;
     color:#666;
     float: left;
-    margin-left: 60px;
+    margin-left: 20px;
     padding-top: 10px;
     cursor: pointer;
 }
@@ -73,7 +73,7 @@ header{
     height: 100%;
     float: right;
     padding-top: 10px;
-    margin-right: 66px;
+    margin-right: 88px;
 }
 .navigator .inner div{
     color: #666;
@@ -115,14 +115,17 @@ header{
 }
 main{
     width:1189px;
-    height: 2000px;
+    height: 185px;
     background-color: #ffffff;
     margin: 0 auto;
+    border-bottom: 2px solid #FF552E;
+    position: relative;
 }
 .container{
     width:100%;
     height: 65px;
     margin-top: 20px;
+
 }
 .container .logo{
     width: 281px;
@@ -165,10 +168,9 @@ main{
 .search .inner input{
     display: block;
     width: 450px;
-    height:30px;
+    height:39px;
     position: absolute;
     left:30px;
-    top:5px;
     border: none;
     outline: none;
 }
@@ -221,4 +223,303 @@ main{
 .msg-button > a:hover{
     color:red;
     text-decoration: underline;
+}
+.app-home{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+.app-home input{
+    display: block;
+    height: 35px;
+    width:103px;
+    background-color: #FF552E;
+    border: 1px solid #FF552E;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+}
+.app-home > div{
+    float: left;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin-left: 46px;
+    line-height: 34px;
+    width: auto;
+    color: #FF552E;
+}
+/*.app-home>div:hover{*/
+    /*border: 1px solid #FF552E;*/
+/*}*/
+.app a{
+    display: block;
+    float: left;
+    color: #FF552E;
+}
+.app:after{
+    display: block;
+    font-weight: 100;
+    font-size: 10px;
+    font-family: icon-font;
+    content: '\e114';
+    float: left;
+    margin-left: 10px;
+}
+.app:before{
+    display: block;
+    margin-right: 5px;
+    content: url("../images/phone-logo.png");
+    float: left;
+}
+.business a{
+    display: block;
+    float: left;
+    color: #FF552E;
+}
+.business:after{
+    display: block;
+    font-weight: 100;
+    font-size: 10px;
+    font-family: icon-font;
+    content: '\e114';
+    float: left;
+    margin-left: 10px;
+}
+.public-number a{
+    display: block;
+    float: left;
+    color: #FF552E;
+}
+.public-number:after{
+    display: block;
+    font-weight: 100;
+    font-size: 10px;
+    font-family: icon-font;
+    content: '\e114';
+    float: left;
+    margin-left: 10px;
+}
+.small-station a{
+    display: block;
+    float: left;
+    color: #FF552E;
+}
+.small-station:hover{
+    background-color: #FF552E;
+}
+.small-station:hover a{
+    color: #fff;
+}
+.banking a{
+    display: block;
+    float: left;
+    color: #FF552E;
+}
+.banking:hover{
+    background-color: #FF552E;
+}.banking:hover a{
+     color: #fff;
+ }
+.live-off a{
+    color: #888;
+}
+.live-off:hover{
+    background-color: #FF552E;
+}
+.live-off:hover a{
+    color: #fff;
+}
+.china-hr a{
+    color: #888;
+}
+.china-hr:hover{
+    background-color: #FF552E;
+}
+.china-hr:hover a{
+    color: #fff;
+}
+.car a{
+    color: #888;
+}
+.car:hover{
+    background-color: #FF552E;
+}
+.car:hover a{
+    color: #fff;
+}
+.app-home > a{
+    font-size: 12px;
+    display: block;
+    color: #999;
+    float: right;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.app-home > a:hover{
+    color: #FF552E;
+}
+.source{
+    width: 1189px;
+    height: auto;
+    margin: 7px auto;
+}
+.guide{
+    width: 843px;
+    height: 122px;
+    background-color: #ffffff;
+    float: left;
+}
+.guide > div{
+    float: left;
+    height: 100%;
+    width: 120px;
+    border-right: 1px solid #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #eeeeee;
+}
+.guide > div:last-child{
+    border: none;
+}
+.guide .inner{
+    width: 52px;
+    height: 67px;
+    font-size: 13px;
+    font-family: 微软雅黑;
+    float: left;
+}
+/*.house .inner{*/
+    /*width: 37px;*/
+    /*height: 67px;*/
+    /*font-size: 14px;*/
+    /*font-family: 微软雅黑;*/
+    /*float: left;*/
+/*}*/
+.guide .inner:hover a{
+    color:#FF552E;
+}
+.foot{
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+}
+.foot a{
+    color: #599CE2;
+}
+.foot a:hover{
+    color: #FF552E;
+    text-decoration: underline;
+}
+.service{
+    width: 339px;
+    height: 122px;
+    background-color: #ffffff;
+    float: right;
+}
+.service .top{
+    width: 300px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #F8F8F8;
+}
+.service .top a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #FF552E;
+}
+.service .bottom{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+.service .bottom>a{
+    display: block;
+    float: left;
+    width: 36px;
+    height: 51px;
+    color: #599CE2;
+}
+.service .bottom>a:hover{
+    color: #FF552E;
+    text-decoration: underline;
+}
+.column1{
+    width: 224px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+
+}
+.column1 a{
+    color:#599CE2;
+    font-size: 15px;
+}
+.column1 a:hover{
+    color: #FF552E;
+    text-decoration: underline;
+}
+.column1 .house{
+    width: 224px;
+    height: 272px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.column1 .house .top{
+    width: 181px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #F8F8F8;
+    font-family: 微软雅黑;
+}
+.column1 .house .top a:first-child{
+    color: #FF552E;
+    font-size: 16px;
+    font-weight: bold;
+}
+.column1 .house .top a:first-child:hover{
+    text-decoration: underline;
+}
+.column1 .house .top a:last-child{
+    color: #FF552E;
+    font-size: 12px;
+}
+.column1 .house .top a:last-child:hover{
+    text-decoration: underline;
+}
+.column1 .house .bottom{
+    width: 181px;
+    height: 227px;
+    margin: 0 auto;
+    font-family: 微软雅黑;
+}
+.column1 .house .bottom ul{
+    float: left;
+    padding: 0;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.column1 .house .bottom ul li{
+    list-style: none;
+    margin-top: 10px;
 }
