@@ -1,0 +1,224 @@
+@font-face {
+    font-family: icon-font;
+    src: url("../fonts/glyphicons-halflings-regular.ttf");
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F8F8F8;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+header{
+    width: 100%;
+    height: 34px;
+    background-color:#fff;
+}
+.navigator{
+    width: 100%;
+    height: 34px;
+    font-size:12px;
+    font-family: 微软雅黑;
+}
+.city{
+    width: 225px;
+    height: 100%;
+    margin-left: 60px;
+    padding-top: 10px;
+    float: left;
+}
+.city span{
+    color: red;
+    font-weight: bold;
+}
+.city a{
+    color: #666;
+}
+.city a:hover{
+    color: #f00;
+}
+.weather{
+    width: 155px;
+    height: 100%;
+    color:#666;
+    float: left;
+    margin-left: 60px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.weather span{
+    display: block;
+    float: left;
+}
+.weather:before{
+    content: url("../images/sun.png");
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.weather:after{
+    content: url("../images/level.png");
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.navigator .inner{
+    width: 495px;
+    height: 100%;
+    float: right;
+    padding-top: 10px;
+    margin-right: 66px;
+}
+.navigator .inner div{
+    color: #666;
+    float: right;
+    margin-left: 25px;
+    font-family: icon-font;
+}
+.navigator .inner div a:hover{
+    color: #f00;
+}
+.navigator .inner div:nth-child(6) span{
+    display: block;
+    float: left;
+}
+.navigator .inner div:nth-child(6) a{
+    display: block;
+    float: left;
+}
+.navigator .inner div:nth-child(2):after{
+    display: block;
+    content: '\e114';
+    float: right;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.navigator .inner div:nth-child(5):after{
+    display: block;
+    content: '\e114';
+    float: right;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.navigator .inner div:nth-child(1):after{
+    display: block;
+    content: '\e114';
+    float: right;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+main{
+    width:1189px;
+    height: 2000px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.container{
+    width:100%;
+    height: 65px;
+    margin-top: 20px;
+}
+.container .logo{
+    width: 281px;
+    height: 100%;
+    margin-left: 40px;
+    float: left;
+}
+.container .logo img:first-child{
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.container .logo img:last-child{
+    display: block;
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.search{
+    width: 621px;
+    height: 100%;
+    float: left;
+    margin-left: 45px;
+}
+.search .inner{
+    width: 522px;
+    height:43px;
+    border: 2px solid #FF552E;
+    margin: auto 0;
+    position: relative;
+    float: left;
+
+}
+.search .inner img{
+    display: block;
+    position: absolute;
+    left:11px;
+    top:11px;
+}
+.search .inner input{
+    display: block;
+    width: 450px;
+    height:30px;
+    position: absolute;
+    left:30px;
+    top:5px;
+    border: none;
+    outline: none;
+}
+.search > input{
+    display: block;
+    width: 97px;
+    height:43px;
+    float: left;
+    background-color: #FF552E;
+    border: 1px solid #FF552E;
+    color: #fff;
+    font-family: 微软雅黑;
+    letter-spacing: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search > a{
+    color: #999;
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
+.search >a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.msg-button{
+    width: 140px;
+    height: 100%;
+    float: left;
+    margin-left: 32px;
+    text-align: center;
+}
+.msg-button input{
+    display: block;
+    width: 100%;
+    height: 43px;
+    background-color: #FF552E;
+    border: 1px solid #FF552E;
+    color: #fff;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    cursor: pointer;
+}
+.msg-button > a{
+    display: block;
+    color: #999;
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
+.msg-button > a:hover{
+    color:red;
+    text-decoration: underline;
+}
